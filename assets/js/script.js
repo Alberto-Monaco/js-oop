@@ -45,6 +45,7 @@ console.log(Fiat_2019_blu)
 console.log(Fiat_2019_blu.informazioni())
 console.log(Fiat_2019_blu.calcolaEta())
 
-const Opel_2020_nera = new Veicolo('Opel', 2020, 'nera', 3, 'benzina')
+class Automobile extends Veicolo {}
+const Opel_2020_nera = new Automobile('Opel', 2020, 'nera', 3, 'benzina')
 console.log(`Numero di porte è ${Opel_2020_nera.porte}`)
 console.log(`Tipo di carburante è ${Opel_2020_nera.carburante}`)
